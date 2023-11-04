@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <title>Welcome to my portfolio website | Responsive Portfolio</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="styles.css">
+    
+    <nav>
+        <div class="nav__content">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <label for="check" class="menu-toggle">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" />
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero-content">
+                <p class="hero-subtitle">HELLO</p>
+                <h1 class="hero-title">I'm <span>Mohd Sameer<br />a</span> Web Developer</h1>
+                <p class="hero-description">
+                    HELLO, I'm Sameer, a full-stack web developer from Uttar Pradesh,
+                    India. I love coding and I specialize in developing customized,
+                    user-friendly, and high-performance websites and applications.
+                </p>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="dev.png" alt="profile" />
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="about" class="about">
+        <div class="about__container">
+            <div class="about-col about-col-1">
+                <img src="about profile.png" alt="Profile Picture">
+            </div>
+            <div class="about-col about-col-2">
+                <h2>About Me</h2>
+                <p>
+                    Welcome to Mohd Sameer's Web Development Portfolio
+
+                    In the ever-evolving landscape of the internet, your digital presence is your most potent tool. It's
+                    not just a website; it's your brand, your voice, and your connection to the world. At Mohd Sameer,
+                    we are dedicated to crafting exceptional web experiences that don't just meet your expectations;
+                    they exceed them.
+
+                    The digital world is our canvas, and web development is our art. With years of expertise, we've
+                    mastered the art of blending creativity and technology to build websites and web applications that
+                    leave a lasting impact. Whether you're an entrepreneur with a vision, a business in need of a
+                    digital facelift, or an organization striving for online excellence, we're here to bring your
+                    digital dreams to life.
+                </p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-project">
+                <img src="project1.png" alt="Project 1">
+                <h3>Simple Calculator Web Application</h3>
+                <p>
+                    A simple calculator web app is a user-friendly and straightforward online tool that allows users to
+                    perform basic arithmetic operations, such as addition, subtraction, multiplication, and division, on
+                    numerical values. Users can input two numbers and choose the desired operation from the available
+                    options. The web app then computes the result and displays it to the user. It typically includes
+                    error handling to prevent division by zero and provides a convenient way to perform quick
+                    calculations without the need for a physical calculator. Simple calculator web apps are commonly
+                    used for basic mathematical tasks and are easily accessible through web browsers on various devices.
+                </p>
+            </div>
+            <div class="portfolio-project">
+                <img src="Project 2.png" alt="Project 2">
+                <h3> Stopwatch Web Application</h3>
+                <p>Introducing the Stopwatch Web App: Precision Timekeeping at Your Fingertips!
+
+                    Our Stopwatch Web App is a cutting-edge digital tool that delivers accurate and user-friendly
+                    timekeeping, right in your web browser. With a sleek and intuitive interface, it features start,
+                    stop, and reset functions, ensuring you have complete control over measuring time to the
+                    millisecond. Whether you're timing sporting events, managing work tasks, or simply tracking any
+                    activity, our stopwatch web app is your trusted companion. Say goodbye to physical stopwatch devices
+                    and embrace the convenience and precision of our professional timekeeping solution.</p>
+            </div>
+            <div class="portfolio-project">
+                <img src="Project 3.png" alt="Project 3">
+                <h3>Weather Web Application Using API</h3>
+                <p>Stay Ahead of the Weather with Our API-Powered Web App!
+
+                    .Get Real-time Conditions & Forecasts
+                    .Location-Based Accuracy
+                    .Alerts for Severe Weather
+                    .Mobile-Friendly
+                    .Reliable API Integration
+                    .Your go-to tool for weather updates!</p>
+            </div>
+            <div class="portfolio-project">
+                <img src="Project 4.png" alt="Project 4">
+                <h3>Tic-Tac-Toe Game</h3>
+                <p>Introducing "Tic-Tac-Toe Triumph" – Where Strategy Meets Fun Online!
+
+                    Experience the timeless classic like never before with our sleek and user-friendly web app.
+                    Tic-Tac-Toe Triumph combines the nostalgia of the beloved game with modern convenience, allowing you
+                    to challenge friends or play against AI opponents from anywhere in the world. With its intuitive
+                    interface, seamless gameplay, and a touch of strategic excitement, it's the ultimate destination for
+                    both casual and competitive gaming. Are you ready to claim victory? Join the fun and make your moves
+                    now!</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
